@@ -11,11 +11,12 @@ the course web site.
 *To generate the plots do the following:*
 
 1. Download *household\_power\_consumption.txt* to where you wish to output the plot files.
-2. Set working directory to that containing *household\_power\_consumption.txt*. For example,
+2. Open R-studio and *do the following:*
+3. Set working directory to that containing *household\_power\_consumption.txt*. For example,
 setwd('bigDataStudies/Data Science Specialization JHU/ExData_Plotting1/')
-3. Source GetDataSet.R, plot1.R, plot2.R, plot3.R, 
+4. Source GetDataSet.R, plot1.R, plot2.R, plot3.R, 
    plot4.R, eg,  source('~/bigDataStudies/plot4.R')
-4. DoPlot1();DoPlot2();DoPlot3();DoPlot4()
+5. DoPlot1();DoPlot2();DoPlot3();DoPlot4()
 
 
 ### Operational Requirements
