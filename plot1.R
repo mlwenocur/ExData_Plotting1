@@ -1,3 +1,13 @@
+# The heavy lifting for doing this plot is done when calling 
+# auxiliary function GetCachedData, a GetDataSet.R function, which either
+# computes the tidy data on the fly or returns a cached value.
+# 
+# The DoPlot1 function extracts the Global_active_power component
+# from the tidy data table, creates png graphics device and outputs
+# the histogram to it. 
+#
+# Determining how to bold the font took a while.
+
 DoPlot1 <- function(){
     srcData <- GetCachedData()
     globActPow <- srcData$Global_active_power
